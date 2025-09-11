@@ -10,7 +10,6 @@ import {
   updateEmployee,
 } from '../api/employee';
 import { useNavigate, useParams } from 'react-router';
-import LoadingSpinner from './LoadingSpinner';
 // import { useForm } from 'antd/es/form/Form';
 
 const getBase64 = (img, callback) => {
@@ -103,9 +102,6 @@ export default function EmployeeForm() {
     </button>
   );
 
-  if (!employee) {
-    return <LoadingSpinner />;
-  }
   return (
     <div className="mt-5 p-5 ">
       <div className="flex items-center backhead !font-bold gap-5 ">
