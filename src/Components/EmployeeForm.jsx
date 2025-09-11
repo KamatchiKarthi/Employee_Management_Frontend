@@ -10,6 +10,7 @@ import {
   updateEmployee,
 } from '../api/employee';
 import { useNavigate, useParams } from 'react-router';
+import LoadingSpinner from './LoadingSpinner';
 // import { useForm } from 'antd/es/form/Form';
 
 const getBase64 = (img, callback) => {
