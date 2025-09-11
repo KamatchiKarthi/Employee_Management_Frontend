@@ -159,11 +159,11 @@ export default function EmployeeForm() {
             rules={[{ required: true, message: 'Please Department' }]}
           >
             <Select>
-              <Select.Option value="design">Design</Select.Option>
-              <Select.Option value="development">Development</Select.Option>
-              <Select.Option value="testing">Testing</Select.Option>
-              <Select.Option value="hr">Hr</Select.Option>
-              <Select.Option value="finance">Finance</Select.Option>
+              <Select.Option value="Design">Design</Select.Option>
+              <Select.Option value="Development">Development</Select.Option>
+              <Select.Option value="Testing">Testing</Select.Option>
+              <Select.Option value="HR">Hr</Select.Option>
+              <Select.Option value="Finance">Finance</Select.Option>
             </Select>
           </Form.Item>
           <Form.Item
@@ -172,20 +172,20 @@ export default function EmployeeForm() {
             rules={[{ required: true, message: 'Please input Designation' }]}
           >
             <Select>
-              <Select.Option value="designlead">Design Lead</Select.Option>
-              <Select.Option value="developer">Developer</Select.Option>
-              <Select.Option value="tester">Tester</Select.Option>
-              <Select.Option value="manager">Manager</Select.Option>
-              <Select.Option value="seniordeveloper">
+              <Select.Option value="Designlead">Design Lead</Select.Option>
+              <Select.Option value="Developer">Developer</Select.Option>
+              <Select.Option value="Tester">Tester</Select.Option>
+              <Select.Option value="Manager">Manager</Select.Option>
+              <Select.Option value="Seniordeveloper">
                 Senior Developer
               </Select.Option>
-              <Select.Option value="intern">Intern</Select.Option>
+              <Select.Option value="Intern">Intern</Select.Option>
             </Select>
           </Form.Item>
           <Form.Item label="Project" name={'PROJECT'}>
             <Select>
-              <Select.Option value="car rental">Car Rental</Select.Option>
-              <Select.Option value="ecommerce">E Commerce</Select.Option>
+              <Select.Option value="Car Rental">Car Rental</Select.Option>
+              <Select.Option value="Ecommerce">E Commerce</Select.Option>
             </Select>
           </Form.Item>
           <Form.Item
@@ -194,8 +194,8 @@ export default function EmployeeForm() {
             rules={[{ required: true, message: 'Please input Designation' }]}
           >
             <Select>
-              <Select.Option value="office">Office</Select.Option>
-              <Select.Option value="remote">Remote</Select.Option>
+              <Select.Option value="Office">Office</Select.Option>
+              <Select.Option value="Remote">Remote</Select.Option>
             </Select>
           </Form.Item>
           <Form.Item
@@ -204,9 +204,9 @@ export default function EmployeeForm() {
             rules={[{ required: true, message: 'Please input Designation' }]}
           >
             <Select>
-              <Select.Option value="permanent">Permanent</Select.Option>
-              <Select.Option value="part-time">Part-time</Select.Option>
-              <Select.Option value="interns">Intership</Select.Option>
+              <Select.Option value="Permanent">Permanent</Select.Option>
+              <Select.Option value="Part-time">Part-time</Select.Option>
+              <Select.Option value="Internship">Intership</Select.Option>
             </Select>
           </Form.Item>
         </div>
