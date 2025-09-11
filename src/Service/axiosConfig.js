@@ -1,8 +1,7 @@
 import axios from 'axios';
-import { process } from 'vite/env';
 
 const instance = axios.create({
-  baseURL: process.env.VITE_APP_TOKEN_KEY,
+  baseURL: import.meta.env.VITE_APP_TOKEN_KEY,
   // timeout: 1000,
   headers: {
     Accept: 'application/json',
